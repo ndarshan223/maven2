@@ -12,7 +12,17 @@
       <!-- This property will be set by the Maven Dependency plugin -->
       <annotatedJdk>${org.checkerframework:jdk8:jar}</annotatedJdk>
   </properties>
+	
 
+<distributionManagement>
+  <repository>
+    <id>dacebook-abc</id>
+    <name>dacebook-abc</name>
+    <url>https://dacebook-973303202028.d.codeartifact.ap-south-1.amazonaws.com/maven/abc/</url>
+  </repository>
+</distributionManagement>
+	
+	
   <dependencies>
     <dependency>
       <groupId>junit</groupId>

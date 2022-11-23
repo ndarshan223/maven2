@@ -1,8 +1,4 @@
-# A simple, minimal Maven example: hello world
-this  file is edited by me shikshan
-hello hello hello hello
-
-
+# A simple, minimal Maven example: hello world!
 simple script added in this file
 #!/bin/bash
 filename=$1

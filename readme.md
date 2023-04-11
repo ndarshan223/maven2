@@ -1,5 +1,16 @@
-# A simple, minimal Maven example: hello world
+# A simple, minimal Maven example: hello world!
+simple script added in this file
+#!/bin/bash
+filename=$1
+if [ -f "$filename" ]; then
+echo "File exists"
+else
+echo "File does not exist"
+fi
 
+
+
+!
 To create the files in this git repo we've already run `mvn archetype:generate` from http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
 
     mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
